@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:background="#282828">
+    <ImageView
+        android:layout_width="match_parent" 
+        android:layout_height="120dp"
+        android:src="@drawable/ic_header_dialog"/>
+    <TextView
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+    <TextView
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:text="Si presionas “salir”, vas a cerrar la app, sesión, etc. Pero puedes volver a la aplicación cuando tú lo estimes conveniente. Si aún no quieres salir presiona “cancelar”." 
+        android:textColor="@android:color/white"
+        android:textSize="17.5dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="28dp"/>
+    
+    <LinearLayout
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="61dp"
+        android:layout_marginBottom="44dp">
+        <Button           
+            android:id="@+id/btnCancelarSalida"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:background="@android:color/transparent"
+            android:textColor="#1B7DCA"
+            android:text="cancelar"
+            android:layout_marginRight="42.5dp"/>
+        <Button    
+            android:id="@+id/btnExitSalida"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:background="@android:color/transparent"
+            android:textColor="#1B7DCA"
+            android:text="salir"
+            android:layout_marginLeft="42.5dp"/>
+    </LinearLayout>
+</LinearLayout>
